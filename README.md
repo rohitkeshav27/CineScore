@@ -1,6 +1,5 @@
 
 
-
 ![Cine Score](src/assets/logo.png)
 
 
@@ -32,3 +31,7 @@ Join the CineScore Movement!
 
 Be a part of the future of movie ratings. Download CineScore today and experience the power of a decentralized and transparent system.
 
+
+
+
+![Cine Score](CineScore.gif)
