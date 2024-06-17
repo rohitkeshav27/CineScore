@@ -3,6 +3,9 @@
 ![Cine Score](src/assets/logo.png)
 
 
+# AO Process Code
+Find the code for the backend AO Process here [link ](https://ide.betteridea.dev/import?id=A1zJqaE8RkOswtmuhOawvXHE2p04ovGwjtyDyTPus2A).
+
 # CineScore: A Decentralized Movie Rating Revolution
 Tired of centralized platforms influencing movie ratings? 
 CineScore brings transparency and trust back to the film review process with a revolutionary decentralized movie rating system.
