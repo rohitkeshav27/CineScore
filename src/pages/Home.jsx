@@ -9,21 +9,22 @@ const Home = () => {
   return (
     <main>
       <Header />
-
-      <div style={styles.div}>
-        <div style={styles.block}>
-          <h2 style={styles.h2}>Welcome to Cine Score ! </h2>
-          <p style={styles.p}>A Decentralised Movie Rating System</p>
+      <div style={styles.blocks}>
+        <div style={styles.div}>
+          <div style={styles.block}>
+            <h2 style={styles.h2}>Welcome to Cine Score ! </h2>
+            <p style={styles.p}>A Decentralised Movie Rating System</p>
+          </div>
+          {connected ? (
+            <button style={styles.viewPostsButton}>
+              <Link to="/ratingPage" style={styles.viewPostsLink}>
+                <span>Rate a Movie</span>
+              </Link>
+            </button>
+          ) : (
+            <ConnectButton style={styles.viewPostsButton} />
+          )}
         </div>
-        {connected ? (
-          <button style={styles.viewPostsButton}>
-            <Link to="/view" style={styles.viewPostsLink}>
-              <span>View Ratings</span>
-            </Link>
-          </button>
-        ) : (
-          <ConnectButton style={styles.viewPostsButton} />
-        )}
       </div>
     </main>
   );
@@ -32,6 +33,10 @@ const Home = () => {
 export default Home;
 
 const styles = {
+  blocks: {
+    position: "relative",
+    left: "180px",
+  },
   p: {
     color: "#1A5276",
     // width: "250px",
