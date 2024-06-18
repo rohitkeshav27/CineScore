@@ -1,6 +1,5 @@
 
-
-![Cine Score](src/assets/logo.png)
+![Cine Score](https://raw.githubusercontent.com/rohitkeshav27/CineScore/main/src/assets/logo.png)
 
 ## [![protocol.land](https://arweave.net/eZp8gOeR8Yl_cyH9jJToaCrt2He1PHr0pR4o-mHbEcY)](https://protocol.land/#/repository/70579f9a-bf39-4831-8aed-e980d3279efa)
 
@@ -38,4 +37,4 @@ Be a part of the future of movie ratings. Download CineScore today and experienc
 
 
 
-![Cine Score](CineScore.gif)
+![Cine Score](https://raw.githubusercontent.com/rohitkeshav27/CineScore/main/CineScore.gif)
